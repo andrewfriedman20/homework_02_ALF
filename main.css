@@ -23,7 +23,7 @@ nav {
   background-color: #d8a47f;
 }
 
-main {
+content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -71,7 +71,7 @@ footer {
   }
   
   @media screen and (max-width: 768px) {
-    main,
+    content,
     nav {
       flex-direction: column;
     }
@@ -125,7 +125,7 @@ body {
     color: #fff;
   }
   
-  main {
+  content {
     display: flex;
     flex: 1 1 0;
     max-width: 1200px;
